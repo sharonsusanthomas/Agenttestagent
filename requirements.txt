@@ -1,0 +1,4 @@
+dspy-ai==2.6.27
+litellm
+rich
+python-dotenv

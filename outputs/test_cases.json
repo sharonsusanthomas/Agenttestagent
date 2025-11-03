@@ -1,0 +1,30 @@
+[
+  {
+    "input_prompt": "User: Can you reschedule my booking for Conference Hall 101 from 10 AM to 2 PM tomorrow?",
+    "expected_output": "Agent: Let me check the availability for Conference Hall 101 at 2 PM tomorrow."
+  },
+  {
+    "input_prompt": "User: Book Conference Hall 101 in Central Block for 10 AM to 12 PM tomorrow.",
+    "expected_output": "Agent: Your booking for Conference Hall 101 in Central Block from 10 AM to 12 PM tomorrow has been confirmed."
+  },
+  {
+    "input_prompt": "User: Can I book a conference hall for tomorrow?",
+    "expected_output": "Agent: Got it. Conference Hall 101, Central Block, tomorrow 10-12. Booking placed."
+  },
+  {
+    "input_prompt": "show me available sports venue on Friday",
+    "expected_output": "Agent: To help you, please provide football ground, indoor stadium from 9 to 5."
+  },
+  {
+    "input_prompt": "User: Can you reschedule my meeting room to 3 PM?",
+    "expected_output": "Agent: Sure, so you mean the one you booked for today at 1 PM?"
+  },
+  {
+    "input_prompt": "User: I need to reserve a space for an event.",
+    "expected_output": "Agent: Which campus and block would you like to reserve the space in?"
+  },
+  {
+    "input_prompt": "User: I would like to schedule a meeting at 3 PM.",
+    "expected_output": "Agent: Great! I have noted the meeting at 3 PM. Is there anything else you would like to add?"
+  }
+]

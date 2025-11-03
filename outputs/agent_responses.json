@@ -1,0 +1,30 @@
+[
+  {
+    "question": "User: Can you reschedule my booking for Conference Hall 101 from 10 AM to 2 PM tomorrow?",
+    "agent_answer": "Agent: Could you please provide me with the campus location for Conference Hall 101? Additionally, I will check the availability for the new time slot of 2 PM tomorrow once I have that information."
+  },
+  {
+    "question": "User: Book Conference Hall 101 in Central Block for 10 AM to 12 PM tomorrow.",
+    "agent_answer": "Agent: Thank you for your request to book Conference Hall 101 in Central Block for tomorrow from 10 AM to 12 PM. Could you please confirm which campus the Central Block is located in? Once I have that information, I can proceed with the booking."
+  },
+  {
+    "question": "User: Can I book a conference hall for tomorrow?",
+    "agent_answer": "Agent: I can help you with that! Could you please provide me with the campus location, the time you would like to book the conference hall for, and how long you need it?"
+  },
+  {
+    "question": "show me available sports venue on Friday",
+    "agent_answer": "Agent: Could you please provide me with the campus location, the specific date for Friday, and the time you are looking to book the sports venue? This will help me find the best options for you."
+  },
+  {
+    "question": "User: Can you reschedule my meeting room to 3 PM?",
+    "agent_answer": "Agent: Could you please provide me with the campus location, the date of your meeting, and the type of room you would like to reschedule? Once I have that information, I can help you with the rescheduling to 3 PM."
+  },
+  {
+    "question": "User: I need to reserve a space for an event.",
+    "agent_answer": "Agent: Thank you for reaching out! To help you reserve a space for your event, could you please provide me with the following details: \n1. Which campus are you looking to book?\n2. What date and time do you need the space for?\n3. What type of room or space are you looking for (e.g., conference room, auditorium, outdoor space)?\n\nOnce I have this information, I can assist you further with your booking!"
+  },
+  {
+    "question": "User: I would like to schedule a meeting at 3 PM.",
+    "agent_answer": "Agent: Thank you for your request! Could you please provide the following details to help me schedule your meeting at 3 PM?\n1. Which campus would you like to use?\n2. What date are you looking to schedule the meeting for?\n3. What type of room do you need (e.g., conference room, classroom)?\n\nOnce I have this information, I can assist you further!"
+  }
+]
