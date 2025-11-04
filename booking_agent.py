@@ -3,7 +3,7 @@ import dspy
 from dspy import LM
 
 # ------------------- SETUP OPENAI MODEL -------------------
-os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY", "sk-xxx")
+#os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY", "sk-xxx")
 lm = LM("openai/gpt-4o-mini")
 dspy.configure(lm=lm)
 
@@ -35,19 +35,19 @@ class BookingAgent:
             user_query: The user's input/question
             
         Returns:
-            The agent's response string
+            The agent's response string (without "Agent:" prefix)
         """
         try:
             result = self.agent(user_query=user_query)
             response = result.agent_response.strip()
             
-            # Ensure response starts with "Agent:" for consistency
-            if not response.startswith("Agent:"):
-                response = f"Agent: {response}"
+            # Remove "Agent:" prefix if present (case insensitive)
+            import re
+            response = re.sub(r'^(agent)\s*:\s*', '', response, flags=re.IGNORECASE)
             
-            return response
+            return response.strip()
         except Exception as e:
-            return f"Agent: I apologize, I encountered an error: {str(e)}"
+            return f"I apologize, I encountered an error: {str(e)}"
 
 
 # ------------------- STANDALONE USAGE -------------------

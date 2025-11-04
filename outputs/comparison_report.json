@@ -1,0 +1,72 @@
+{
+  "timestamp": "2025-11-04T13:30:11.741951",
+  "comparison_method": "DSPy Chain of Thought (Semantic)",
+  "summary": {
+    "total_tests": 6,
+    "passed": 0,
+    "failed": 6,
+    "pass_rate": 0.0
+  },
+  "comparisons": [
+    {
+      "test_id": 1,
+      "question": "I want to book Conference Hall 101 in Central Block for tomorrow from 10 AM to 12 PM.",
+      "expected_answer": "Got it.",
+      "actual_answer": "Thank you for your request to book Conference Hall 101 in Central Block for tomorrow from 10 AM to 12 PM. Could you please confirm which campus the Central Block is located in? Once I have that information, I can assist you further with the booking.",
+      "status": "FAIL",
+      "similarity_score": 30,
+      "are_semantically_equivalent": false,
+      "reasoning": "The expected answer is a straightforward acknowledgment, while the actual answer requests further information, indicating a lack of equivalence."
+    },
+    {
+      "test_id": 2,
+      "question": "Show me available sports venues on Friday.",
+      "expected_answer": "To help you, please provide Football Ground, Basketball Court, and Indoor Stadium are free from 9 AM to 5 PM.",
+      "actual_answer": "Could you please provide me with the campus you are interested in, as well as the specific time you would like to book the sports venue on Friday? Additionally, let me know if you have a particular type of sports venue in mind (e.g., gym, field, court). This will help me find the best options for you!",
+      "status": "FAIL",
+      "similarity_score": 20,
+      "are_semantically_equivalent": false,
+      "reasoning": "The actual answer seeks more information rather than providing the requested list of available sports venues, making it not equivalent to the expected answer."
+    },
+    {
+      "test_id": 3,
+      "question": "Can you reschedule my meeting room booking to 3 PM?",
+      "expected_answer": "Sure, do you mean the one booked for 1 PM today?",
+      "actual_answer": "I can help you with that! Could you please provide me with the following details: the campus where the meeting room is booked, the original date of your booking, and the type of room you would like to reschedule? Once I have that information, I can assist you in rescheduling to 3 PM.",
+      "status": "FAIL",
+      "similarity_score": 40,
+      "are_semantically_equivalent": false,
+      "reasoning": "The expected answer confirms the rescheduling request, while the actual answer seeks more information before proceeding, indicating a different approach."
+    },
+    {
+      "test_id": 4,
+      "question": "Can you tell me which venues are available at the downtown campus for March 15th at 3 PM?",
+      "expected_answer": "The following venues are available at the downtown campus on March 15th at 3 PM: Room A, Hall B, and Conference Center C.",
+      "actual_answer": "I can help you with that! Could you please confirm if you are looking for a specific type of venue (like a conference room, auditorium, etc.)? Once I have that information, I can check the availability for March 15th at 3 PM at the downtown campus.",
+      "status": "FAIL",
+      "similarity_score": 20,
+      "are_semantically_equivalent": false,
+      "reasoning": "The actual answer does not provide the list of available venues as requested, but instead seeks further clarification, indicating a lack of direct response to the question."
+    },
+    {
+      "test_id": 5,
+      "question": "Can you tell me which venues are available at the downtown campus for March 15th at 3 PM?",
+      "expected_answer": "agents expected answer.",
+      "actual_answer": "I can help you with that! Could you please confirm if you are looking for a specific type of venue (like a conference room, auditorium, etc.)? Once I have that information, I can check the availability for March 15th at 3 PM at the downtown campus.",
+      "status": "FAIL",
+      "similarity_score": 20,
+      "are_semantically_equivalent": false,
+      "reasoning": "The actual answer seeks clarification rather than providing the requested information about venue availability, indicating a significant difference in response."
+    },
+    {
+      "test_id": 6,
+      "question": "What venues are available at the downtown campus on March 15th at 3 PM?",
+      "expected_answer": "To help you, please provide I can help you with that Could you confirm if you are looking for a specific type of venue (like a conference room, auditorium, etc.",
+      "actual_answer": "Thank you for your inquiry! I will check the availability of venues at the downtown campus for March 15th at 3 PM. Please hold on for a moment while I gather the information.",
+      "status": "FAIL",
+      "similarity_score": 40,
+      "are_semantically_equivalent": false,
+      "reasoning": "The expected answer seeks clarification on the type of venue, while the actual answer simply acknowledges the request and states that the information will be gathered."
+    }
+  ]
+}

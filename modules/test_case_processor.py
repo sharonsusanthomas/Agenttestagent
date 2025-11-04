@@ -8,7 +8,7 @@ from signatures.unified_test_extractor import UnifiedTestCaseExtractorSignature
 from signatures.behavioral_synthesizer import BehavioralSynthesizerSignature
 
 # ------------------- SETUP OPENAI MODEL -------------------
-#os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY", "sk-xxx")
+#os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY", "sk-proj-xxx")
 lm = LM("openai/gpt-4o-mini")
 dspy.configure(lm=lm)
 

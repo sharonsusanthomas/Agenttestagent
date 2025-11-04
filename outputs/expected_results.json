@@ -1,30 +1,26 @@
 [
   {
-    "question": "User: Can you reschedule my booking for Conference Hall 101 from 10 AM to 2 PM tomorrow?",
-    "expected_answer": "Agent: Let me check the availability for Conference Hall 101 at 2 PM tomorrow."
+    "question": "I want to book Conference Hall 101 in Central Block for tomorrow from 10 AM to 12 PM.",
+    "expected_answer": "Got it."
   },
   {
-    "question": "User: Book Conference Hall 101 in Central Block for 10 AM to 12 PM tomorrow.",
-    "expected_answer": "Agent: Your booking for Conference Hall 101 in Central Block from 10 AM to 12 PM tomorrow has been confirmed."
+    "question": "Show me available sports venues on Friday.",
+    "expected_answer": "To help you, please provide Football Ground, Basketball Court, and Indoor Stadium are free from 9 AM to 5 PM."
   },
   {
-    "question": "User: Can I book a conference hall for tomorrow?",
-    "expected_answer": "Agent: Got it. Conference Hall 101, Central Block, tomorrow 10-12. Booking placed."
+    "question": "Can you reschedule my meeting room booking to 3 PM?",
+    "expected_answer": "Sure, do you mean the one booked for 1 PM today?"
   },
   {
-    "question": "show me available sports venue on Friday",
-    "expected_answer": "Agent: To help you, please provide football ground, indoor stadium from 9 to 5."
+    "question": "Can you tell me which venues are available at the downtown campus for March 15th at 3 PM?",
+    "expected_answer": "The following venues are available at the downtown campus on March 15th at 3 PM: Room A, Hall B, and Conference Center C."
   },
   {
-    "question": "User: Can you reschedule my meeting room to 3 PM?",
-    "expected_answer": "Agent: Sure, so you mean the one you booked for today at 1 PM?"
+    "question": "Can you tell me which venues are available at the downtown campus for March 15th at 3 PM?",
+    "expected_answer": "agents expected answer."
   },
   {
-    "question": "User: I need to reserve a space for an event.",
-    "expected_answer": "Agent: Which campus and block would you like to reserve the space in?"
-  },
-  {
-    "question": "User: I would like to schedule a meeting at 3 PM.",
-    "expected_answer": "Agent: Great! I have noted the meeting at 3 PM. Is there anything else you would like to add?"
+    "question": "What venues are available at the downtown campus on March 15th at 3 PM?",
+    "expected_answer": "To help you, please provide I can help you with that Could you confirm if you are looking for a specific type of venue (like a conference room, auditorium, etc."
   }
 ]
